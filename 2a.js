@@ -1,11 +1,6 @@
-let a = ()=> {
-    console.log("Hello a");
+// Returns "Data Representation & Querying" string
+let returnString = ()=> {
+    console.log("Data Representation & Querying");
 }
 
-a();
-
-let b = (value) => {
-    console.log(value);
-}
-
-b("Bye");
+returnString(); // Function call
