@@ -10,4 +10,15 @@ function addTask(task) { // Recieves a string (task) and adds it to the array. R
 }
 
 // addTask() call
-console.log(addTask("Cool task"))
+console.log(addTask("Cool task") + " - number of tasks")
+
+// 3.c Create a listAllTasks function.
+function listAllTasks() { // Iterates over the array. Prints each value to the console.
+    console.log("Tasks:")
+    Tasks.forEach(element => { // Iterates over the array
+        console.log(element); // Prints array item
+    });
+}
+
+// listAllTasks() call
+listAllTasks()
